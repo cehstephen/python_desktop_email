@@ -36,11 +36,11 @@ def mail():
 
     def Sendmail():
 
-        sender = 'edidiongumoh84@gmail.com'
-        password = 'Iniedymimieky04'
+        sender = 'myemail@gmail.com'
+        password = 'pypassword'
 
         message = MIMEMultipart()
-        message['From'] = 'edidiongumoh84@gmail.com'
+        message['From'] = 'myemail@gmail.com'
         message['To'] = to_email_entry.get()
         message['Subject'] = subject_entry.get()
 
